@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="0d83ce7d-88f1-4b8d-b315-3183244152b5" name="commerce" url="http://91.151.84.84/">
+      <webServer id="ac52f6cd-2ccf-48d8-93fc-a80d857db078" name="eticaret" url="http://91.151.84.84/">
         <fileTransfer host="91.151.84.84" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
