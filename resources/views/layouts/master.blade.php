@@ -10,8 +10,7 @@
 <body>
     @include('layouts.partials.navbar')
    @yield('content')
-    <hr>
-    E-Ticaret Sistemleri
+    @include('layouts.partials.footer')
 
 </body>
 </html>
