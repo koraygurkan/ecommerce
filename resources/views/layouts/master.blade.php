@@ -8,11 +8,7 @@
     <title>@yield('title',config('app.name'))</title>
 </head>
 <body>
-    <a href="/">Ana Sayfa</a>
-    <a href="/kategori">Kategori</a>
-    <a href="/urun">Ürün</a>
-    <a href="/sepet">Sepet</a>
-    <hr>
+    @include('layouts.partials.navbar')
    @yield('content')
     <hr>
     E-Ticaret Sistemleri
