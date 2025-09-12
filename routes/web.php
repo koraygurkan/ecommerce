@@ -19,7 +19,8 @@ Route::get('/', function () {
 
 Route::get('/kategori/{slug_kategoriadi}' , 'KategoriController@index')->name('kategori');
 Route::get('/urun/{slug_urunadi}' , 'UrunController@index')->name('urun');
+Route::get('/sepet/' , 'UrunController@index')->name('sepet');
 
 //Route::view('/kategori','kategori');
 //Route::view('/urun','urun');
-Route::view('/sepet','sepet');
+//Route::view('/sepet','sepet');
